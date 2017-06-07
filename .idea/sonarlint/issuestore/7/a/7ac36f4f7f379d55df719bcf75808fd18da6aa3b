@@ -1,0 +1,31 @@
+
+Rsquid:UnusedPrivateMethod"/Remove this unused private "unionSites" method.(£ÛŞ¸
+jsquid:S1192"PDefine a constant instead of duplicating this literal "wrong arguments" 3 times.(öûüøÿÿÿÿ
+Rsquid:S1068"8Remove this unused "weightedQuickUnionUF" private field.(‰×Áşÿÿÿÿ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(°”Ç¥üÿÿÿÿ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(ö©ŒÅøÿÿÿÿ
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(×•œ²
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(‘ğÈıÿÿÿÿ
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(×•œ²
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥• èüÿÿÿÿ
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(¢ş·
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(­ÿçÖüÿÿÿÿ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(å‰­…üÿÿÿÿ
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(öÿÏ‹
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(«“»¼
+1squid:S1220""Move this file to a named package.
+?squid:S1172"*Remove this unused method parameter "row".(£ÛŞ¸
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(£ÛŞ¸
