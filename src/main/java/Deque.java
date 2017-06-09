@@ -1,24 +1,82 @@
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 
 /**
  * Created by ezharuc on 6/9/2017.
+ * Your deque implementation must support each deque operation in constant worst-case time.
+ * A deque containing n items must use at most 48n + 192 bytes of memory.
+ * and use space proportional to the number of items currently in the deque.
+ * Additionally, your iterator implementation must support each operation (including construction) in constant worst-case time.
  *
- * @param <T>
+ * @param <Item>
  *         the type parameter
  */
-public class Deque<T> implements Iterable<T> {
+public class Deque<Item> implements Iterable<Item> {
+
+    private Node first, last;
+    private int n = 0;
+
+    private class Node {
+        /**
+         * The Item.
+         */
+        Item item;
+        /**
+         * The Next.
+         */
+        Node next;
+
+        /**
+         * The Pre.
+         */
+        Node prev;
+
+        /**
+         * Instantiates a new Node.
+         *
+         * @param item
+         *         the item
+         */
+        Node(Item item) {
+            this.item = item;
+            this.next = null;
+            this.prev = null;
+        }
+    }
 
     /**
-     * Returns an iterator over a set of elements of type T.
+     * Returns an iterator over a set of elements of type Item.
      *
      * @return an Iterator.
      */
-    public Iterator<T> iterator() {
-        return null;
+    public Iterator<Item> iterator() {
+        return new Iterator<Item>() {
+
+            private Node current = first;
+
+            public boolean hasNext() {
+                return current != null;
+            }
+
+            public Item next() {
+
+                Item item = current.item;
+                current = current.next;
+                return item;
+            }
+
+            public void remove() {
+
+                /* un support method */
+                throw new UnsupportedOperationException("un support method.");
+            }
+        };
     }
 
     /**
      * Instantiates a new Deque.
+     * A double-ended queue or deque is a generalization of a stack and a queue that supports adding and removing items from
+     * either the front or the black of the data structure.
      */
     public Deque() {
 
@@ -30,7 +88,7 @@ public class Deque<T> implements Iterable<T> {
      * @return the boolean
      */
     public boolean isEmpty() {
-        return false;
+        return n == 0;
     }
 
     /**
@@ -39,7 +97,7 @@ public class Deque<T> implements Iterable<T> {
      * @return the int
      */
     public int size() {
-        return 0;
+        return n;
     }
 
     /**
@@ -48,8 +106,43 @@ public class Deque<T> implements Iterable<T> {
      * @param item
      *         the item
      */
-    public void addFirst(T item) {
+    public void addFirst(Item item) {
 
+        validate(item);
+        n++;
+        if (first == null) {
+            first = new Node(item);
+            last = first;
+        } else {
+            Node oldFirst = first;
+            first = new Node(item);
+            first.next = oldFirst;
+            oldFirst.prev = first;
+        }
+    }
+
+    /**
+     * Remove first t.
+     *
+     * @return the t
+     */
+    public Item removeFirst() {
+        if (isEmpty()) {
+            throw new NoSuchElementException("no such elements");
+        }
+        n--;
+        Node oldFirst = first;
+        first = oldFirst.next;
+        first.prev = null;
+        oldFirst.next = null;
+        oldFirst.prev = null;
+        return oldFirst.item;
+    }
+
+    private void validate(Item item) {
+        if (item == null) {
+            throw new NullPointerException("this item cannot be null.");
+        }
     }
 
     /**
@@ -58,17 +151,19 @@ public class Deque<T> implements Iterable<T> {
      * @param item
      *         the item
      */
-    public void addLast(T item) {
+    public void addLast(Item item) {
 
-    }
-
-    /**
-     * Remove first t.
-     *
-     * @return the t
-     */
-    public T removeFirst() {
-        return null;
+        validate(item);
+        n++;
+        if (last == null) {
+            last = new Node(item);
+            first = last;
+        } else {
+            Node oldLast = last;
+            last = new Node(item);
+            oldLast.next = last;
+            last.prev = oldLast;
+        }
     }
 
     /**
@@ -76,8 +171,30 @@ public class Deque<T> implements Iterable<T> {
      *
      * @return the t
      */
-    public T removeLast() {
-        return null;
+    public Item removeLast() {
+        if (isEmpty()) {
+            throw new NoSuchElementException("no such elements");
+        }
+        n--;
+        Node oldLast = last;
+        last = oldLast.prev;
+        last.next = null;
+        oldLast.next = null;
+        oldLast.prev = null;
+        return oldLast.item;
+    }
+
+
+    @Override
+    public String toString() {
+
+        Iterator<Item> iterator = iterator();
+        StringBuilder sb = new StringBuilder();
+        while (iterator.hasNext()) {
+            sb.append(iterator.next()).append(" ");
+        }
+
+        return sb.toString();
     }
 
     /**
@@ -88,5 +205,15 @@ public class Deque<T> implements Iterable<T> {
      */
     public static void main(String[] args) {
 
+        Deque<String> deque = new Deque<String>();
+        deque.addFirst("a");
+        deque.addFirst("b");
+        deque.addFirst("dsfg");
+        deque.addLast("c");
+        deque.addLast("d");
+        System.out.println(deque);
+        deque.removeFirst();
+        deque.removeLast();
+        System.out.println(deque);
     }
 }
