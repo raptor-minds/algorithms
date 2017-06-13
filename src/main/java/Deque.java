@@ -16,20 +16,29 @@ public class Deque<Item> implements Iterable<Item> {
     private Node first, last;
     private int n = 0;
 
+    /**
+     * Instantiates a new Deque.
+     * A double-ended queue or deque is a generalization of a stack and a queue that supports adding and removing items from
+     * either the front or the black of the data structure.
+     */
+    public Deque() {
+
+    }
+
     private class Node {
         /**
          * The Item.
          */
-        Item item;
+        private Item item;
         /**
          * The Next.
          */
-        Node next;
+        private Node next;
 
         /**
          * The Pre.
          */
-        Node prev;
+        private Node prev;
 
         /**
          * Instantiates a new Node.
@@ -60,6 +69,9 @@ public class Deque<Item> implements Iterable<Item> {
 
             public Item next() {
 
+                if (current == null) {
+                    throw new NoSuchElementException("no such element.");
+                }
                 Item item = current.item;
                 current = current.next;
                 return item;
@@ -73,14 +85,6 @@ public class Deque<Item> implements Iterable<Item> {
         };
     }
 
-    /**
-     * Instantiates a new Deque.
-     * A double-ended queue or deque is a generalization of a stack and a queue that supports adding and removing items from
-     * either the front or the black of the data structure.
-     */
-    public Deque() {
-
-    }
 
     /**
      * Is empty boolean.
@@ -133,7 +137,11 @@ public class Deque<Item> implements Iterable<Item> {
         n--;
         Node oldFirst = first;
         first = oldFirst.next;
-        first.prev = null;
+        if (first != null) {
+            first.prev = null;
+        } else {
+            last = first;
+        }
         oldFirst.next = null;
         oldFirst.prev = null;
         return oldFirst.item;
@@ -178,7 +186,11 @@ public class Deque<Item> implements Iterable<Item> {
         n--;
         Node oldLast = last;
         last = oldLast.prev;
-        last.next = null;
+        if (last != null) {
+            last.next = null;
+        } else {
+            first = last;
+        }
         oldLast.next = null;
         oldLast.prev = null;
         return oldLast.item;
@@ -214,6 +226,13 @@ public class Deque<Item> implements Iterable<Item> {
         System.out.println(deque);
         deque.removeFirst();
         deque.removeLast();
+        System.out.println(deque);
+        deque.removeLast();
+        deque.removeLast();
+        deque.removeLast();
+        System.out.println(deque);
+        deque.addFirst("k");
+        System.out.println(deque.removeLast());
         System.out.println(deque);
     }
 }

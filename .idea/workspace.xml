@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68991bf8-6768-4ab1-94ab-982b5bc6046b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Permutation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/RandomizedQueue.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Deque.java" afterPath="$PROJECT_DIR$/src/main/java/Deque.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Stack.java" afterPath="$PROJECT_DIR$/src/main/java/Stack.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/src/target/" />
@@ -18,65 +19,20 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#Stack#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractList.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_11/src.zip!/java/util/AbstractList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="70" column="54" lean-forward="false" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractCollection.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_11/src.zip!/java/util/AbstractCollection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="60" column="61" lean-forward="false" selection-start-line="60" selection-start-column="61" selection-end-line="60" selection-end-column="61" />
-              <folding>
-                <element signature="docComment;method#iterator#0;class#AbstractCollection#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_11/src.zip!/java/util/Collection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="126" column="17" lean-forward="false" selection-start-line="126" selection-start-column="17" selection-end-line="126" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Deque.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Deque.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Deque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="216" column="34" lean-forward="true" selection-start-line="216" selection-start-column="34" selection-end-line="216" selection-end-column="34" />
+            <state relative-caret-position="399">
+              <caret line="76" column="28" lean-forward="true" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#Deque#0" expanded="true" />
+                <element signature="docComment;method#Deque#0;class#Deque#0" expanded="true" />
                 <element signature="docComment;field#item#0;class#Node#0;class#Deque#0" expanded="true" />
                 <element signature="docComment;field#next#0;class#Node#0;class#Deque#0" expanded="true" />
                 <element signature="docComment;field#prev#0;class#Node#0;class#Deque#0" expanded="true" />
                 <element signature="docComment;method#Node#0;class#Node#0;class#Deque#0" expanded="true" />
                 <element signature="docComment;method#iterator#0;class#Deque#0" expanded="true" />
-                <element signature="docComment;method#Deque#0;class#Deque#0" expanded="true" />
                 <element signature="docComment;method#isEmpty#0;class#Deque#0" expanded="true" />
                 <element signature="docComment;method#size#0;class#Deque#0" expanded="true" />
                 <element signature="docComment;method#addFirst#0;class#Deque#0" expanded="true" />
@@ -84,58 +40,128 @@
                 <element signature="docComment;method#addLast#0;class#Deque#0" expanded="true" />
                 <element signature="docComment;method#removeLast#0;class#Deque#0" expanded="true" />
                 <element signature="docComment;method#main#0;class#Deque#0" expanded="true" />
-                <element signature="e#4567#4575#0" expanded="true" />
+                <element signature="e#4894#4902#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Iterable.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_11/src.zip!/java/lang/Iterable.java">
+      <file leaf-file-name="RandomizedQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/RandomizedQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#RandomizedQueue#0" expanded="true" />
+                <element signature="docComment;method#RandomizedQueue#0;class#RandomizedQueue#0" expanded="true" />
+                <element signature="docComment;method#iterator#0;class#RandomizedQueue#0" expanded="true" />
+                <element signature="docComment;method#isEmpty#0;class#RandomizedQueue#0" expanded="true" />
+                <element signature="docComment;method#size#0;class#RandomizedQueue#0" expanded="true" />
+                <element signature="e#1884#1885#0" expanded="true" />
+                <element signature="e#1908#1909#0" expanded="true" />
+                <element signature="docComment;method#enqueue#0;class#RandomizedQueue#0" expanded="true" />
+                <element signature="docComment;method#dequeue#0;class#RandomizedQueue#0" expanded="true" />
+                <element signature="docComment;method#sample#0;class#RandomizedQueue#0" expanded="true" />
+                <element signature="docComment;method#main#0;class#RandomizedQueue#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_11/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="150" column="5" lean-forward="true" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StdRandom.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/algs4/algs4.jar!/edu/princeton/cs/algs4/StdRandom.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+              <folding>
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Permutation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Permutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <element signature="docComment;class#Permutation#0" expanded="true" />
+                <element signature="e#268#276#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileInputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_11/src.zip!/java/io/FileInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="205" column="23" lean-forward="false" selection-start-line="205" selection-start-column="23" selection-end-line="205" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StdIn.class" pinned="false" current-in-tab="true">
+        <entry file="jar://$USER_HOME$/algs4/algs4.jar!/edu/princeton/cs/algs4/StdIn.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractPath.class" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_11/jre/lib/rt.jar!/sun/nio/fs/AbstractPath.class">
+      <file leaf-file-name="Percolation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Percolation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="-506">
+              <caret line="131" column="5" lean-forward="true" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+              <folding>
+                <element signature="docComment;class#Percolation#0" expanded="true" />
+                <element signature="docComment;method#Percolation#0;class#Percolation#0" expanded="true" />
+                <element signature="docComment;method#open#0;class#Percolation#0" expanded="true" />
+                <element signature="docComment;method#isOpen#0;class#Percolation#0" expanded="true" />
+                <element signature="docComment;method#isFull#0;class#Percolation#0" expanded="true" />
+                <element signature="docComment;method#percolates#0;class#Percolation#0" expanded="true" />
+                <element signature="docComment;method#numberOfOpenSites#0;class#Percolation#0" expanded="true" />
+                <element signature="docComment;method#main#0;class#Percolation#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_11/src.zip!/javax/xml/soap/Node.java">
+      <file leaf-file-name="PercolationStats.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PercolationStats.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Percolation.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/classes/Percolation.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_11/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14950">
-              <caret line="1010" column="0" lean-forward="false" selection-start-line="1010" selection-start-column="0" selection-end-line="1011" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="61">
+              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="42" />
+              <folding>
+                <element signature="docComment;method#main#0;class#PercolationStats#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,7 +194,6 @@
         <option value="$USER_HOME$/algs4/algs4.jar!/edu/princeton/cs/algs4/In.class" />
         <option value="$USER_HOME$/algs4/algs4.jar!/edu/princeton/cs/algs4/StdDraw.class" />
         <option value="$USER_HOME$/algs4/algs4.jar!/edu/princeton/cs/algs4/StdOut.class" />
-        <option value="$USER_HOME$/algs4/algs4.jar!/edu/princeton/cs/algs4/StdRandom.class" />
         <option value="$USER_HOME$/algs4/algs4.jar!/edu/princeton/cs/algs4/WeightedQuickUnionUF.class" />
         <option value="$PROJECT_DIR$/src/main/java/PercolationStats.java" />
         <option value="$PROJECT_DIR$/src/main/java/Percolation.java" />
@@ -176,9 +201,27 @@
         <option value="$USER_HOME$/algs4/algs4.jar!/edu/princeton/cs/algs4/Stack.class" />
         <option value="$PROJECT_DIR$/.idea/compiler.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Stack.java" />
+        <option value="$USER_HOME$/algs4/algs4.jar!/edu/princeton/cs/algs4/StdIn.class" />
+        <option value="$USER_HOME$/algs4/algs4.jar!/edu/princeton/cs/algs4/StdRandom.class" />
         <option value="$PROJECT_DIR$/src/main/java/Deque.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RandomizedQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Permutation.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="precolation" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
@@ -202,7 +245,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -212,7 +254,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="precolation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="precolation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="precolation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="precolation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generated-sources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="precolation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="precolation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -240,6 +328,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -247,7 +336,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$USER_HOME$/project/ngdn/src/nginx-http-nproxy" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="SONARLINT_ANALYSIS_RESULTS_SCOPE" value="VCS changed files" />
     <property name="GO_FMT" value="false" />
@@ -264,42 +353,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Deque">
-    <configuration default="false" name="Percolation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Percolation" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="precolation" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Permutation">
     <configuration default="false" name="InteractivePercolationVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="InteractivePercolationVisualizer" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="5 10" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="precolation" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PercolationStats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="PercolationStats" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="2 100000" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -331,6 +390,36 @@
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="precolation" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RandomizedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="RandomizedQueue" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="precolation" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Permutation" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="3 &lt; distinct.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -697,19 +786,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Percolation" />
-      <item index="1" class="java.lang.String" itemvalue="Application.InteractivePercolationVisualizer" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PercolationStats" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Stack" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Deque" />
+      <item index="0" class="java.lang.String" itemvalue="Application.InteractivePercolationVisualizer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Stack" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Deque" />
+      <item index="3" class="java.lang.String" itemvalue="Application.RandomizedQueue" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Permutation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Deque" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Stack" />
-        <item index="2" class="java.lang.String" itemvalue="Application.InteractivePercolationVisualizer" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PercolationStats" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Percolation" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Permutation" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RandomizedQueue" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Deque" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Stack" />
+        <item index="4" class="java.lang.String" itemvalue="Application.InteractivePercolationVisualizer" />
       </list>
     </recent_temporary>
   </component>
@@ -746,35 +835,35 @@
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953313" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953313" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32581738" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32807216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24689966" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37655017" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32807216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24812031" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24758324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -829,6 +918,24 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Deque.java</url>
+          <line>233</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Permutation.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Permutation.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/PercolationStats.java</url>
           <line>94</line>
@@ -846,7 +953,7 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -855,81 +962,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/algs4/algs4.jar!/edu/princeton/cs/algs4/QuickFindUF.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="43" column="16" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_11/src.zip!/java/lang/IllegalArgumentException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="36" column="6" lean-forward="false" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PercolationStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Percolation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Percolation#0" expanded="true" />
-            <element signature="docComment;method#Percolation#0;class#Percolation#0" expanded="true" />
-            <element signature="docComment;method#open#0;class#Percolation#0" expanded="true" />
-            <element signature="docComment;method#isOpen#0;class#Percolation#0" expanded="true" />
-            <element signature="docComment;method#isFull#0;class#Percolation#0" expanded="true" />
-            <element signature="docComment;method#percolates#0;class#Percolation#0" expanded="true" />
-            <element signature="docComment;method#numberOfOpenSites#0;class#Percolation#0" expanded="true" />
-            <element signature="docComment;method#main#0;class#Percolation#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InteractivePercolationVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="962">
-          <caret line="37" column="44" lean-forward="true" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PercolationVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_11/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18512">
-          <caret line="712" column="25" lean-forward="false" selection-start-line="712" selection-start-column="25" selection-end-line="712" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/algs4/algs4.jar!/edu/princeton/cs/algs4/QuickFindUF.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="43" column="16" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_11/src.zip!/java/lang/IllegalArgumentException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -958,10 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
           <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1075,13 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/algs4/algs4.jar!/edu/princeton/cs/algs4/StdRandom.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_11/src.zip!/java/util/Formatter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5044">
@@ -1100,10 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1125,32 +1142,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PercolationStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1742">
-          <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Percolation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="131" column="5" lean-forward="true" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;class#Percolation#0" expanded="true" />
-            <element signature="docComment;method#Percolation#0;class#Percolation#0" expanded="true" />
-            <element signature="docComment;method#open#0;class#Percolation#0" expanded="true" />
-            <element signature="docComment;method#isOpen#0;class#Percolation#0" expanded="true" />
-            <element signature="docComment;method#isFull#0;class#Percolation#0" expanded="true" />
-            <element signature="docComment;method#percolates#0;class#Percolation#0" expanded="true" />
-            <element signature="docComment;method#numberOfOpenSites#0;class#Percolation#0" expanded="true" />
-            <element signature="docComment;method#main#0;class#Percolation#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_11/src.zip!/com/sun/org/apache/bcel/internal/generic/StackProducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -1183,7 +1175,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,22 +1203,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#Stack#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_11/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14950">
           <caret line="1010" column="0" lean-forward="false" selection-start-line="1010" selection-start-column="0" selection-end-line="1011" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#41178#0" expanded="false" />
+            <element signature="docComment;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;field#elementData#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;field#size#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#ArrayList#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#ArrayList#1;class#ArrayList#0" expanded="false" />
+            <element signature="e#5310#5311#0" expanded="false" />
+            <element signature="e#5334#5335#0" expanded="false" />
+            <element signature="docComment;method#ArrayList#2;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#trimToSize#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#ensureCapacity#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;field#MAX_ARRAY_SIZE#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#grow#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#size#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#8466#8467#0" expanded="false" />
+            <element signature="e#8493#8494#0" expanded="false" />
+            <element signature="docComment;method#isEmpty#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#8675#8676#0" expanded="false" />
+            <element signature="e#8707#8708#0" expanded="false" />
+            <element signature="docComment;method#contains#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#9184#9185#0" expanded="false" />
+            <element signature="e#9222#9223#0" expanded="false" />
+            <element signature="docComment;method#indexOf#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#lastIndexOf#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#clone#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#toArray#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#11864#11865#0" expanded="false" />
+            <element signature="e#11919#11920#0" expanded="false" />
+            <element signature="docComment;method#toArray#1;class#ArrayList#0" expanded="false" />
+            <element signature="e#13737#13738#0" expanded="false" />
+            <element signature="e#13782#13783#0" expanded="false" />
+            <element signature="docComment;method#get#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#set#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#add#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#add#1;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#remove#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#remove#1;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#clear#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#addAll#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#addAll#1;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#removeRange#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#rangeCheck#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#rangeCheckForAdd#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#outOfBoundsMsg#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#22792#22793#0" expanded="false" />
+            <element signature="e#22846#22847#0" expanded="false" />
+            <element signature="docComment;method#removeAll#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#23689#23690#0" expanded="false" />
+            <element signature="e#23733#23734#0" expanded="false" />
+            <element signature="docComment;method#retainAll#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#24690#24691#0" expanded="false" />
+            <element signature="e#24733#24734#0" expanded="false" />
+            <element signature="docComment;method#writeObject#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#readObject#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#listIterator#0;class#ArrayList#0" expanded="false" />
+            <element signature="docComment;method#listIterator#1;class#ArrayList#0" expanded="false" />
+            <element signature="e#28258#28259#0" expanded="false" />
+            <element signature="e#28295#28296#0" expanded="false" />
+            <element signature="docComment;method#iterator#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#28595#28596#0" expanded="false" />
+            <element signature="e#28627#28628#0" expanded="false" />
+            <element signature="docComment;class#Itr#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#28952#28953#0" expanded="false" />
+            <element signature="e#28997#28998#0" expanded="false" />
+            <element signature="docComment;class#ListItr#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#30358#30359#0" expanded="false" />
+            <element signature="e#30400#30401#0" expanded="false" />
+            <element signature="e#30434#30435#0" expanded="false" />
+            <element signature="e#30471#30472#0" expanded="false" />
+            <element signature="e#30509#30510#0" expanded="false" />
+            <element signature="e#30550#30551#0" expanded="false" />
+            <element signature="docComment;method#subList#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#36039#36040#0" expanded="false" />
+            <element signature="e#36090#36091#0" expanded="false" />
+            <element signature="e#36532#36533#0" expanded="false" />
+            <element signature="e#36577#36578#0" expanded="false" />
+            <element signature="e#36982#36983#0" expanded="false" />
+            <element signature="e#37056#37057#0" expanded="false" />
+            <element signature="e#37696#37697#0" expanded="false" />
+            <element signature="e#37754#37755#0" expanded="false" />
+            <element signature="e#38375#38376#0" expanded="false" />
+            <element signature="e#38428#38429#0" expanded="false" />
+            <element signature="e#38474#38475#0" expanded="false" />
+            <element signature="e#38531#38532#0" expanded="false" />
+            <element signature="e#40923#40924#0" expanded="false" />
+            <element signature="e#40990#40991#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1235,7 +1302,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="126" column="17" lean-forward="false" selection-start-line="126" selection-start-column="17" selection-end-line="126" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="e#0#21226#0" expanded="false" />
+            <element signature="docComment;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#size#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#isEmpty#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#contains#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#iterator#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#toArray#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#toArray#1;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#add#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#remove#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#containsAll#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#addAll#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#removeAll#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#retainAll#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#clear#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#equals#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#Collection#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1244,7 +1329,28 @@
         <state relative-caret-position="156">
           <caret line="60" column="61" lean-forward="false" selection-start-line="60" selection-start-column="61" selection-end-line="60" selection-end-column="61" />
           <folding>
-            <element signature="docComment;method#iterator#0;class#AbstractCollection#0" expanded="true" />
+            <element signature="e#0#15470#0" expanded="false" />
+            <element signature="docComment;class#AbstractCollection#0" expanded="false" />
+            <element signature="docComment;method#AbstractCollection#0;class#AbstractCollection#0" expanded="false" />
+            <element signature="docComment;method#iterator#0;class#AbstractCollection#0" expanded="false" />
+            <element signature="docComment;method#isEmpty#0;class#AbstractCollection#0" expanded="false" />
+            <element signature="e#2293#2294#0" expanded="false" />
+            <element signature="e#2327#2328#0" expanded="false" />
+            <element signature="docComment;method#contains#0;class#AbstractCollection#0" expanded="false" />
+            <element signature="docComment;method#toArray#0;class#AbstractCollection#0" expanded="false" />
+            <element signature="docComment;method#toArray#1;class#AbstractCollection#0" expanded="false" />
+            <element signature="docComment;field#MAX_ARRAY_SIZE#0;class#AbstractCollection#0" expanded="false" />
+            <element signature="docComment;method#finishToArray#0;class#AbstractCollection#0" expanded="false" />
+            <element signature="docComment;method#add#0;class#AbstractCollection#0" expanded="false" />
+            <element signature="e#8414#8415#0" expanded="false" />
+            <element signature="e#8471#8472#0" expanded="false" />
+            <element signature="docComment;method#remove#0;class#AbstractCollection#0" expanded="false" />
+            <element signature="docComment;method#containsAll#0;class#AbstractCollection#0" expanded="false" />
+            <element signature="docComment;method#addAll#0;class#AbstractCollection#0" expanded="false" />
+            <element signature="docComment;method#removeAll#0;class#AbstractCollection#0" expanded="false" />
+            <element signature="docComment;method#retainAll#0;class#AbstractCollection#0" expanded="false" />
+            <element signature="docComment;method#clear#0;class#AbstractCollection#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#AbstractCollection#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1253,23 +1359,170 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="70" column="54" lean-forward="false" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#26975#0" expanded="false" />
+            <element signature="docComment;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;method#AbstractList#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;method#add#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;method#get#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;method#set#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#4449#4450#0" expanded="false" />
+            <element signature="e#4506#4507#0" expanded="false" />
+            <element signature="docComment;method#add#1;class#AbstractList#0" expanded="false" />
+            <element signature="e#4990#4991#0" expanded="false" />
+            <element signature="e#5047#5048#0" expanded="false" />
+            <element signature="docComment;method#remove#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#5343#5344#0" expanded="false" />
+            <element signature="e#5400#5401#0" expanded="false" />
+            <element signature="docComment;method#indexOf#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;method#lastIndexOf#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;method#clear#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#7627#7628#0" expanded="false" />
+            <element signature="e#7665#7666#0" expanded="false" />
+            <element signature="docComment;method#addAll#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;method#iterator#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#9661#9662#0" expanded="false" />
+            <element signature="e#9693#9694#0" expanded="false" />
+            <element signature="docComment;method#listIterator#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#9883#9884#0" expanded="false" />
+            <element signature="e#9921#9922#0" expanded="false" />
+            <element signature="docComment;method#listIterator#1;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#cursor#0;class#Itr#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#lastRet#0;class#Itr#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#expectedModCount#0;class#Itr#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#11802#11803#0" expanded="false" />
+            <element signature="e#11849#11850#0" expanded="false" />
+            <element signature="e#13024#13025#0" expanded="false" />
+            <element signature="e#13062#13063#0" expanded="false" />
+            <element signature="e#13102#13103#0" expanded="false" />
+            <element signature="e#13144#13145#0" expanded="false" />
+            <element signature="e#13579#13580#0" expanded="false" />
+            <element signature="e#13616#13617#0" expanded="false" />
+            <element signature="e#13654#13655#0" expanded="false" />
+            <element signature="e#13693#13694#0" expanded="false" />
+            <element signature="docComment;method#subList#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;method#equals#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;method#removeRange#0;class#AbstractList#0" expanded="false" />
+            <element signature="docComment;field#modCount#0;class#AbstractList#0" expanded="false" />
+            <element signature="e#22189#22190#0" expanded="false" />
+            <element signature="e#22245#22246#0" expanded="false" />
+            <element signature="e#24057#24058#0" expanded="false" />
+            <element signature="e#24095#24096#0" expanded="false" />
+            <element signature="e#24466#24467#0" expanded="false" />
+            <element signature="e#24503#24504#0" expanded="false" />
+            <element signature="e#24786#24787#0" expanded="false" />
+            <element signature="e#24843#24844#0" expanded="false" />
+            <element signature="e#25077#25078#0" expanded="false" />
+            <element signature="e#25136#25137#0" expanded="false" />
+            <element signature="e#25376#25377#0" expanded="false" />
+            <element signature="e#25437#25438#0" expanded="false" />
+            <element signature="e#25479#25480#0" expanded="false" />
+            <element signature="e#25544#25545#0" expanded="false" />
+            <element signature="e#25734#25735#0" expanded="false" />
+            <element signature="e#25774#25775#0" expanded="false" />
+            <element signature="e#26001#26002#0" expanded="false" />
+            <element signature="e#26063#26064#0" expanded="false" />
+            <element signature="e#26436#26437#0" expanded="false" />
+            <element signature="e#26490#26491#0" expanded="false" />
+            <element signature="e#26792#26793#0" expanded="false" />
+            <element signature="e#26839#26840#0" expanded="false" />
+            <element signature="e#26897#26898#0" expanded="false" />
+            <element signature="e#26971#26972#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="26">
+            <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="e#233#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PercolationStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="42" />
+          <folding>
+            <element signature="docComment;method#main#0;class#PercolationStats#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Percolation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="131" column="5" lean-forward="true" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;class#Percolation#0" expanded="true" />
+            <element signature="docComment;method#Percolation#0;class#Percolation#0" expanded="true" />
+            <element signature="docComment;method#open#0;class#Percolation#0" expanded="true" />
+            <element signature="docComment;method#isOpen#0;class#Percolation#0" expanded="true" />
+            <element signature="docComment;method#isFull#0;class#Percolation#0" expanded="true" />
+            <element signature="docComment;method#percolates#0;class#Percolation#0" expanded="true" />
+            <element signature="docComment;method#numberOfOpenSites#0;class#Percolation#0" expanded="true" />
+            <element signature="docComment;method#main#0;class#Percolation#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_11/src.zip!/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-682">
+          <caret line="945" column="19" lean-forward="false" selection-start-line="945" selection-start-column="19" selection-end-line="945" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_11/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="150" column="5" lean-forward="true" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/algs4/algs4.jar!/edu/princeton/cs/algs4/StdRandom.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Deque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="216" column="34" lean-forward="true" selection-start-line="216" selection-start-column="34" selection-end-line="216" selection-end-column="34" />
+        <state relative-caret-position="399">
+          <caret line="76" column="28" lean-forward="true" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#Deque#0" expanded="true" />
+            <element signature="docComment;method#Deque#0;class#Deque#0" expanded="true" />
             <element signature="docComment;field#item#0;class#Node#0;class#Deque#0" expanded="true" />
             <element signature="docComment;field#next#0;class#Node#0;class#Deque#0" expanded="true" />
             <element signature="docComment;field#prev#0;class#Node#0;class#Deque#0" expanded="true" />
             <element signature="docComment;method#Node#0;class#Node#0;class#Deque#0" expanded="true" />
             <element signature="docComment;method#iterator#0;class#Deque#0" expanded="true" />
-            <element signature="docComment;method#Deque#0;class#Deque#0" expanded="true" />
             <element signature="docComment;method#isEmpty#0;class#Deque#0" expanded="true" />
             <element signature="docComment;method#size#0;class#Deque#0" expanded="true" />
             <element signature="docComment;method#addFirst#0;class#Deque#0" expanded="true" />
@@ -1277,8 +1530,64 @@
             <element signature="docComment;method#addLast#0;class#Deque#0" expanded="true" />
             <element signature="docComment;method#removeLast#0;class#Deque#0" expanded="true" />
             <element signature="docComment;method#main#0;class#Deque#0" expanded="true" />
-            <element signature="e#4567#4575#0" expanded="true" />
+            <element signature="e#4894#4902#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RandomizedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#RandomizedQueue#0" expanded="true" />
+            <element signature="docComment;method#RandomizedQueue#0;class#RandomizedQueue#0" expanded="true" />
+            <element signature="docComment;method#iterator#0;class#RandomizedQueue#0" expanded="true" />
+            <element signature="docComment;method#isEmpty#0;class#RandomizedQueue#0" expanded="true" />
+            <element signature="docComment;method#size#0;class#RandomizedQueue#0" expanded="true" />
+            <element signature="e#1884#1885#0" expanded="true" />
+            <element signature="e#1908#1909#0" expanded="true" />
+            <element signature="docComment;method#enqueue#0;class#RandomizedQueue#0" expanded="true" />
+            <element signature="docComment;method#dequeue#0;class#RandomizedQueue#0" expanded="true" />
+            <element signature="docComment;method#sample#0;class#RandomizedQueue#0" expanded="true" />
+            <element signature="docComment;method#main#0;class#RandomizedQueue#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_11/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="205" column="23" lean-forward="false" selection-start-line="205" selection-start-column="23" selection-end-line="205" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="docComment;class#Permutation#0" expanded="true" />
+            <element signature="e#268#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/algs4/algs4.jar!/edu/princeton/cs/algs4/StdIn.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
