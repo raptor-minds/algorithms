@@ -1,6 +1,7 @@
 package mergesort;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * examines 4 points at a time and checks whether they all lie on the same line segment, returning all such line segments.
@@ -12,8 +13,7 @@ public class BruteCollinearPoints {
 
     private int numberOfSegments = 0;
     private Point[] points = null;
-    private boolean flag = false;
-    private LineSegment[] lineSegments = new LineSegment[0];
+    private List<LineSegment> lineSegmentList = new ArrayList<LineSegment>();
 
     /**
      * Instantiates a new Brute collinear points.
@@ -24,7 +24,6 @@ public class BruteCollinearPoints {
     // finds all line segments containing 4 points
     public BruteCollinearPoints(Point[] points) {
 
-        flag = false;
         if (points == null) {
             throw new NullPointerException("null points.");
         }
@@ -44,6 +43,7 @@ public class BruteCollinearPoints {
         }
 
         this.points = points;
+        calculateSegments();
     }
 
     private static boolean less(Comparable a, Comparable b) {
@@ -63,12 +63,6 @@ public class BruteCollinearPoints {
      */
     // the number of line segments
     public int numberOfSegments() {
-
-        if (flag) {
-            return numberOfSegments;
-        }
-        calculateSegments();
-        flag = true;
         return numberOfSegments;
     }
 
@@ -86,25 +80,25 @@ public class BruteCollinearPoints {
      */
     public LineSegment[] segments() {
 
-        if (flag) {
-            return lineSegments;
-        }
-        flag = true;
-        calculateSegments();
-        return lineSegments;
+        LineSegment[] lineSegments = new LineSegment[numberOfSegments];
+        return lineSegmentList.toArray(lineSegments);
     }
 
     private void calculateSegments() {
         for (int i = 0; i < points.length - 3; i++) {
-            Arrays.sort(points, points[i].slopeOrder());
-            for (int j = i; j < points.length - 3; j++) {
-                if (points[j].slopeTo(points[j + 3]) == points[j].slopeTo(points[j + 1])) {
-                    lineSegments[numberOfSegments] = new LineSegment(points[j], points[j + 3]);
-                    numberOfSegments++;
+            boolean flag = true;
+            for (int j = i + 1; j < points.length - 2 && flag; j++) {
+                for (int k = j + 1; k < points.length - 1 && flag; k++) {
+                    for (int h = k + 1; h < points.length && flag; h++) {
+                        double slope = points[i].slopeTo(points[k]);
+                        if (slope == points[j].slopeTo(points[h]) && slope == points[i].slopeTo(points[j])) {
+                            lineSegmentList.add(new LineSegment(points[i], points[h]));
+                            numberOfSegments++;
+                            flag = false;
+                        }
+                    }
                 }
             }
-            // return to original sequence point array.
-            Arrays.sort(points);
         }
     }
 }
