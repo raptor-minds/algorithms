@@ -1,6 +1,5 @@
 package geekTime.sort;
 
-import edu.princeton.cs.algs4.BinaryIn;
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
@@ -27,7 +26,7 @@ public class BinarySearch {
     public static void main(String[] args) {
 
         // read the integers from a file
-        BinaryIn in = new BinaryIn(args[0]);
+        In in = new In(args[0]);
         int[] whitelist = in.readAllInts();
 
         // sort the array

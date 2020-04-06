@@ -1,4 +1,4 @@
 target
 .idea
-out
 lib
+src/main/resources/algs4-data
