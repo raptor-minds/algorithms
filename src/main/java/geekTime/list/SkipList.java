@@ -7,40 +7,47 @@ public class SkipList {
 
     private int levelCount = 1;
 
-    private Node head = new Node();
+    private Node head = new Node(MAX_LEVEL);
 
     public Node find(int value) {
         Node p = head;
         for (int i = levelCount; i >= 0; i--) {
-            while (p.forward[i] != null && p.forward[i].data < value) {
-                p = p.forward[i];
+            while (p.forwards[i] != null && p.forwards[i].data < value) {
+                p = p.forwards[i];
             }
         }
 
         return null;
     }
-}
 
-    class Node<T> {
-        static final int MAX_LEVEL = 16;
-        int data;
-        Node forward[] = new Node[MAX_LEVEL];
-        int maxLevel = 0;
+    public void insert(int value) {
+        int level = randomLevel();
+        Node newNode = new Node(level);
+        newNode.data = value;
+        newNode.maxLevel = level;
 
-        @Override
-        public String toString() {
-            StringBuilder builder = new StringBuilder();
-            builder.append("{ data: ");
-            builder.append(data);
-            builder.append("; levels: ");
-            builder.append(maxLevel);
-            builder.append(" }");
+        // record all the changes
+        Node update[] = new Node[level];
 
-            return builder.toString();
+        // record every level largest value which smaller than insert value in update array.
+        Node p = head;
+        for (int i = level - 1; i >= 0; i--) {
+            while (p.forwards[i] != null && p.forwards[i].data < value) {
+                p = p.forwards[i];
+            }
+            update[i] = p;
+        }
+
+
     }
 
-    public static void main(String[] args) {
-            String url = "https://dianrong.com/";
-            System.out.println( url.replace("https://", "").replace("/", "").trim());
+    // theory, for the first level there's 50% probability to hit, and the second round, for the
+    // next 25% probability
+    private int randomLevel() {
+        int level = 1;
+
+        while (Math.random() < SKIPLIST_P && level < MAX_LEVEL)
+            level += 1;
+        return level;
     }
 }
