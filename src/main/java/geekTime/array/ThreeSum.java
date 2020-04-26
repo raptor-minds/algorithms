@@ -36,6 +36,12 @@ public class ThreeSum {
     }
 
     public static void main(String[] args) {
-        System.out.println(threeSum(new int[] {-1, 0, 1, 2, -1, -4}));
+        //System.out.println(threeSum(new int[] {-1, 0, 1, 2, -1, -4}));
+
+        String name = "baas.dianrong.com";
+        String[] strings = name.split("\\.");
+        int len = strings.length;
+        System.out.println(Arrays.toString(strings));
+        System.out.println(strings[len - 2] + "." + strings[len -1]);
     }
 }
