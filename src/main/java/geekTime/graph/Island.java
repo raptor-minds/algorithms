@@ -1,4 +1,4 @@
-package geekTime.bfs;
+package geekTime.graph;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
