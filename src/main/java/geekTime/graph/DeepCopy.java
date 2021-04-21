@@ -56,21 +56,56 @@ public class DeepCopy {
             }
             return head;
         }
+
+        private Node clone(Node node, HashMap<Integer, Node> visited) {
+            if (node == null) {
+                return null;
+            }
+
+            if (visited.containsKey(node.val)) {
+                return visited.get(node.val);
+            }
+
+            Node newNode = new Node(node.val);
+            visited.put(newNode.val, newNode);
+
+            newNode.neighbors = new ArrayList<>();
+
+            for (Node neighbor : node.neighbors) {
+                newNode.neighbors.add(clone(neighbor, visited));
+            }
+
+            return newNode;
+
+        }
+
+        public Node cloneGraph1(Node node) {
+            HashMap<Integer, Node> visited = new HashMap<>();
+            return clone(node, visited);
+        }
     }
 
     public static void main(String[] args) {
         Node node1 = new Node(1);
         Node node2 = new Node(2);
         Node node3 = new Node(3);
+        Node node4 = new Node(4);
 
         node1.neighbors = new ArrayList<>();
         node1.neighbors.add(node2);
+        node1.neighbors.add(node4);
 
         node2.neighbors = new ArrayList<>();
         node2.neighbors.add(node3);
+        node2.neighbors.add(node1);
 
         node3.neighbors = new ArrayList<>();
-        node3.neighbors.add(node1);
+        node3.neighbors.add(node2);
+        node3.neighbors.add(node4);
+
+        node4.neighbors = new ArrayList<>();
+        node4.neighbors.add(node1);
+        node4.neighbors.add(node3);
 
         Node node = new Solution().cloneGraph(node1);
     }
