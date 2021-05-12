@@ -19,9 +19,9 @@ public class Selection extends SortBase implements Sort {
     }
 
     public static void main(String[] args) {
-        Double[] a = (Double[]) init();
+        Double[] a = (Double[]) init(false);
         Selection selection = new Selection();
-        selection.sort(a, true);
+        selection.sort(a, false);
         Assert.check(isSorted(a));
     }
 }

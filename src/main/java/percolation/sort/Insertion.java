@@ -19,7 +19,7 @@ public class Insertion extends SortBase implements Sort {
     }
 
     public static void main(String[] args) {
-        Double[] a = (Double[]) init();
+        Double[] a = (Double[]) init(true);
         Insertion insertion = new Insertion();
         insertion.sort(a, true);
         Assert.check(isSorted(a));

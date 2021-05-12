@@ -16,7 +16,7 @@ public class SortBase {
             StdDraw.filledRectangle(i, (Double) a[i] / 2, 0.25, (Double) a[i] / 2);
         }
         StdDraw.setPenColor(Color.GRAY);
-        for (int i = index ; i < a.length; i++) {
+        for (int i = index; i < a.length; i++) {
             StdDraw.filledRectangle(i, (Double) a[i] / 2, 0.25, (Double) a[i] / 2);
         }
         StdDraw.show();
@@ -44,12 +44,14 @@ public class SortBase {
         a[j] = temp;
     }
 
-    static Comparable[] init() {
+    static Comparable[] init(boolean needPrint) {
         int N = 100;
         Double[] a = new Double[N];
         for (int i = 0; i < N; i++) {
             a[i] = Double.valueOf(new Random().nextInt(50));
         }
+
+        if (!needPrint) return a;
         StdDraw.setCanvasSize(1000, 500);
         StdDraw.setXscale(0, 100);
         StdDraw.setYscale(0, 50);
