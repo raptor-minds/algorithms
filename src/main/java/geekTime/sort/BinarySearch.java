@@ -36,8 +36,9 @@ public class BinarySearch {
         while (!StdIn.isEmpty()) {
             int key = StdIn.readInt();
             BinarySearch binarySearch = new BinarySearch();
-            if (binarySearch.search(whitelist, key) == -1)
+            if (binarySearch.search(whitelist, key) == -1) {
                 StdOut.println(key);
+            }
         }
     }
 }

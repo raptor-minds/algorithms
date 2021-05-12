@@ -19,6 +19,10 @@ public class Node<T> {
      */
     Node<T> right;
 
+    public Node(T data) {
+        this.data = data;
+    }
+
     /**
      * Gets data.
      *
