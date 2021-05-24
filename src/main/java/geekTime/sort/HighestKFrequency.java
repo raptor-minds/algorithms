@@ -37,19 +37,6 @@ public class HighestKFrequency {
         return queue.peek();
     }
 
-    public int[] searchRange(int[] nums, int target) {
-
-    }
-
-    public int maxKnowledge(int x, int n, int a, int b) {
-        int result = 0
-        while (x > 0) {
-            result += x
-            n--;
-            x -= a;
-        }
-    }
-
     public int[] topKFrequent(int[] nums, int k) {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
@@ -85,6 +72,16 @@ public class HighestKFrequency {
             result[count++] = item[0];
         }
         return result;
+    }
+
+    public int[] searchRange(int[] nums, int target) {
+
+    }
+
+    public int binarySearch(int[] nums, int L, int R, int target) {
+        if (L == R) {
+            return nums[L]
+        }
     }
 
     public static void main(String[] args) {
