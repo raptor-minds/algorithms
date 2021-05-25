@@ -75,18 +75,48 @@ public class HighestKFrequency {
     }
 
     public int[] searchRange(int[] nums, int target) {
-
+        if (nums.length < 1) {
+            return new int[]{-1, -1};
+        }
+        if (nums.length == 1) {
+            return nums[0] == target ? new int[]{0, 0} : new int[]{-1, -1};
+        }
+        return binarySearch(nums, 0, nums.length - 1, target);
     }
 
-    public int binarySearch(int[] nums, int L, int R, int target) {
+    public int[] binarySearch(int[] nums, int L, int R, int target) {
         if (L == R) {
-            return nums[L]
+            return nums[L] == target ? new int[]{L, R} : new int[]{-1, -1};
+        }
+        int mid = ((R - L) >>> 1) + L;
+        if (nums[mid] == target) {
+            int[] left = binarySearch(nums, L, mid, target);
+            int[] right = binarySearch(nums, mid + 1, R, target);
+            if (left[0] == -1 && right[0] == -1) {
+                return new int[]{mid, mid};
+            } else if (left[0] == -1) {
+                return new int[]{mid, right[1]};
+            } else if (right[0] == -1) {
+                return new int[]{left[0], mid};
+            } else {
+                return new int[]{left[0], right[1]};
+            }
+        } else if (nums[mid] < target) {
+            return binarySearch(nums, mid + 1, R, target);
+        } else {
+            return binarySearch(nums, L, mid, target);
         }
     }
 
+    public int[][] merge(int[][] intervals) {
+
+    }
+
     public static void main(String[] args) {
-        int[] arr = new int[]{1, 1, 1, 2, 2, 3, 2};
-        int[] results = new HighestKFrequency().topKFrequent(arr, 2);
-        System.out.println(results);
+        int[] arr = new int[]{2,2};
+        int[] ints = new HighestKFrequency().searchRange(arr, 2);
+        for (int i = 0; i < ints.length; i++) {
+            System.out.println(ints[i]);
+        }
     }
 }
