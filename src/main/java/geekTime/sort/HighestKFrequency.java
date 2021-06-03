@@ -108,9 +108,9 @@ public class HighestKFrequency {
         }
     }
 
-    public int[][] merge(int[][] intervals) {
-
-    }
+//    public int[][] merge(int[][] intervals) {
+//
+//    }
 
     public static void main(String[] args) {
         int[] arr = new int[]{2,2};
