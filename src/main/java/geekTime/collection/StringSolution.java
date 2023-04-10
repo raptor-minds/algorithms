@@ -1,8 +1,10 @@
 package geekTime.collection;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Stack;
+import java.util.*;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.CyclicBarrier;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @author zhangrucheng on 2023/4/6
@@ -71,12 +73,47 @@ public class StringSolution {
         return 0;
     }
 
-    public static void main(String[] args) {
-        String test = "100[leetcode]";
-        System.out.println(decodeString(test));
-        char[] temp = new char[] {'1','0'};
-        for (char c : temp) {
-            System.out.println((int)c);
-        }
+    public static void main(String[] args) throws InterruptedException {
+        List<String> arrA = new ArrayList<>();
+        List<String> arrB = new ArrayList<>();
+        arrA.add("1");
+        arrA.add("3");
+        arrB.add("2");
+        arrB.add("4");
+        ReentrantLock reentrantLock = new ReentrantLock();
+        Condition conditionA = reentrantLock.newCondition();
+        Condition conditionB = reentrantLock.newCondition();
+        Thread threadA = new Thread(() -> {
+            for (String s : arrA) {
+               try {
+                   reentrantLock.lock();
+                   System.out.println(s);
+                   conditionB.signal();
+                   conditionA.await();
+               } catch (InterruptedException e) {
+                   throw new RuntimeException(e);
+               } finally {
+                   reentrantLock.unlock();
+               }
+            }
+        });
+
+        Thread threadB = new Thread(() -> {
+            for (String s : arrB) {
+                try {
+                    reentrantLock.lock();
+                    System.out.println(s);
+                    conditionA.signal();
+                    conditionB.await();
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                } finally {
+                    reentrantLock.unlock();
+                }
+            }
+        });
+
+        threadA.start();
+        threadB.start();
     }
 }
