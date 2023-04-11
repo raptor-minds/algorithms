@@ -22,8 +22,10 @@ public class ThreeNumSum {
     }
 
     private static void process(int[] nums, int L, int R, int target, List<List<Integer>> ans) {
+        int second = L;
         while (L < R) {
-            if (nums[L + 1] == nums[L]) {
+
+            if (L > second && nums[L] == nums[L-1]) {
                 L++;
                 continue;
             }
@@ -48,7 +50,7 @@ public class ThreeNumSum {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{-1, 0, 1, 2, -1, -4};
+        int[] nums = new int[]{0,0,-2,1,1,0};
         List<List<Integer>> lists = new ThreeNumSum().threeSum(nums);
         for (List<Integer> list : lists) {
             for (Integer integer : list) {
