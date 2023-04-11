@@ -1,7 +1,10 @@
 package multithread;
 
 import org.jetbrains.annotations.NotNull;
+import sun.nio.ch.ThreadPool;
 
+import java.lang.reflect.Method;
+import java.lang.reflect.ParameterizedType;
 import java.util.concurrent.*;
 
 /**
@@ -22,7 +25,15 @@ public class ScheduleThreadTest {
 
       static ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(2);
 
-    public static void main(String[] args) {
+    public void printName() {
+        System.out.println("ni hao dai li");
+    }
+
+    public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, NoSuchMethodException {
+        Class<?> clazz = Class.forName("multithread.ScheduleThreadTest");
+        Object o = clazz.newInstance();
+        Method printName = clazz.getMethod("printName", null);
+        printName.invoke(o,)
         scheduledExecutorService.scheduleAtFixedRate(() -> {
             String name = Thread.currentThread().getName();
             System.out.println("hello fix delay task " + name);
