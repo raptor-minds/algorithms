@@ -33,7 +33,6 @@ public class ScheduleThreadTest {
         Class<?> clazz = Class.forName("multithread.ScheduleThreadTest");
         Object o = clazz.newInstance();
         Method printName = clazz.getMethod("printName", null);
-        printName.invoke(o,)
         scheduledExecutorService.scheduleAtFixedRate(() -> {
             String name = Thread.currentThread().getName();
             System.out.println("hello fix delay task " + name);
